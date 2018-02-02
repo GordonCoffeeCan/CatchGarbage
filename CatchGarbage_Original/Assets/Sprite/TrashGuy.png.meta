@@ -1,0 +1,521 @@
+fileFormatVersion: 2
+guid: bd2f6392da3f1c040ae53c87c6e494ed
+timeCreated: 1484254045
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: trashGuy_spritesheet_0
+    21300002: trashGuy_spritesheet_1
+    21300004: trashGuy_spritesheet_2
+    21300006: trashGuy_spritesheet_3
+    21300008: trashGuy_spritesheet_4
+    21300010: trashGuy_spritesheet_5
+    21300012: trashGuy_spritesheet_6
+    21300014: trashGuy_spritesheet_7
+    21300016: trashGuy_spritesheet_8
+    21300018: trashGuy_spritesheet_9
+    21300020: trashGuy_spritesheet_10
+    21300022: trashGuy_spritesheet_11
+    21300024: trashGuy_spritesheet_12
+    21300026: trashGuy_spritesheet_13
+    21300028: trashGuy_spritesheet_14
+    21300030: trashGuy_spritesheet_15
+    21300032: trashGuy_spritesheet_16
+    21300034: trashGuy_spritesheet_17
+    21300036: trashGuy_spritesheet_18
+    21300038: trashGuy_spritesheet_19
+    21300040: trashGuy_spritesheet_20
+    21300042: trashGuy_spritesheet_21
+    21300044: trashGuy_spritesheet_22
+    21300046: trashGuy_spritesheet_23
+    21300048: trashGuy_spritesheet_24
+    21300050: trashGuy_spritesheet_25
+    21300052: trashGuy_spritesheet_26
+    21300054: trashGuy_spritesheet_27
+    21300056: TrashGuy_0
+    21300058: TrashGuy_1
+    21300060: TrashGuy_2
+    21300062: TrashGuy_3
+    21300064: TrashGuy_4
+    21300066: TrashGuy_5
+    21300068: TrashGuy_6
+    21300070: TrashGuy_7
+    21300072: TrashGuy_8
+    21300074: TrashGuy_9
+    21300076: TrashGuy_10
+    21300078: TrashGuy_11
+    21300080: TrashGuy_12
+    21300082: TrashGuy_13
+    21300084: TrashGuy_14
+    21300086: TrashGuy_15
+    21300088: TrashGuy_16
+    21300090: TrashGuy_17
+    21300092: TrashGuy_18
+    21300094: TrashGuy_19
+    21300096: TrashGuy_20
+    21300098: TrashGuy_21
+    21300100: TrashGuy_22
+    21300102: TrashGuy_23
+    21300104: TrashGuy_24
+    21300106: TrashGuy_25
+    21300108: TrashGuy_26
+    21300110: TrashGuy_27
+    21300112: TrashGuy_28
+    21300114: TrashGuy_29
+    21300116: TrashGuy_30
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TrashGuy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1863
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1863
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1863
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_3
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1863
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_4
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1863
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1678
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_6
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1678
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_7
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1678
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_8
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1678
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1678
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1493
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_11
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1493
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_12
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1493
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_13
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1493
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_14
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1493
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1308
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1308
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1308
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_18
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1308
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_19
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1308
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1123
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_21
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1123
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_22
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1123
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_23
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1123
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_24
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1123
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 938
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_26
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 938
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_27
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 938
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_28
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 938
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_29
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 938
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TrashGuy_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 753
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

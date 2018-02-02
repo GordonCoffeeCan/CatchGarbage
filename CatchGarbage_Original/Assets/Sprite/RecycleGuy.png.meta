@@ -1,0 +1,521 @@
+fileFormatVersion: 2
+guid: b7ad2d338557ad84b8bccaa92deab52b
+timeCreated: 1484253996
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: recycleGuy_spritesheet_0
+    21300002: recycleGuy_spritesheet_1
+    21300004: recycleGuy_spritesheet_2
+    21300006: recycleGuy_spritesheet_3
+    21300008: recycleGuy_spritesheet_4
+    21300010: recycleGuy_spritesheet_5
+    21300012: recycleGuy_spritesheet_6
+    21300014: recycleGuy_spritesheet_7
+    21300016: recycleGuy_spritesheet_8
+    21300018: recycleGuy_spritesheet_9
+    21300020: recycleGuy_spritesheet_10
+    21300022: recycleGuy_spritesheet_11
+    21300024: recycleGuy_spritesheet_12
+    21300026: recycleGuy_spritesheet_13
+    21300028: recycleGuy_spritesheet_14
+    21300030: recycleGuy_spritesheet_15
+    21300032: recycleGuy_spritesheet_16
+    21300034: recycleGuy_spritesheet_17
+    21300036: recycleGuy_spritesheet_18
+    21300038: recycleGuy_spritesheet_19
+    21300040: recycleGuy_spritesheet_20
+    21300042: recycleGuy_spritesheet_21
+    21300044: recycleGuy_spritesheet_22
+    21300046: recycleGuy_spritesheet_23
+    21300048: recycleGuy_spritesheet_24
+    21300050: recycleGuy_spritesheet_25
+    21300052: recycleGuy_spritesheet_26
+    21300054: recycleGuy_spritesheet_27
+    21300056: RecycleGuy_0
+    21300058: RecycleGuy_1
+    21300060: RecycleGuy_2
+    21300062: RecycleGuy_3
+    21300064: RecycleGuy_4
+    21300066: RecycleGuy_5
+    21300068: RecycleGuy_6
+    21300070: RecycleGuy_7
+    21300072: RecycleGuy_8
+    21300074: RecycleGuy_9
+    21300076: RecycleGuy_10
+    21300078: RecycleGuy_11
+    21300080: RecycleGuy_12
+    21300082: RecycleGuy_13
+    21300084: RecycleGuy_14
+    21300086: RecycleGuy_15
+    21300088: RecycleGuy_16
+    21300090: RecycleGuy_17
+    21300092: RecycleGuy_18
+    21300094: RecycleGuy_19
+    21300096: RecycleGuy_20
+    21300098: RecycleGuy_21
+    21300100: RecycleGuy_22
+    21300102: RecycleGuy_23
+    21300104: RecycleGuy_24
+    21300106: RecycleGuy_25
+    21300108: RecycleGuy_26
+    21300110: RecycleGuy_27
+    21300112: RecycleGuy_28
+    21300114: RecycleGuy_29
+    21300116: RecycleGuy_30
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RecycleGuy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1860
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1860
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1860
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_3
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1860
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_4
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1860
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1672
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_6
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1672
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_7
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1672
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_8
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1672
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1672
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1484
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_11
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1484
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_12
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1484
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_13
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1484
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_14
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1484
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1296
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1296
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1296
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_18
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1296
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_19
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1296
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1108
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_21
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1108
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_22
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1108
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_23
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1108
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_24
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1108
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 920
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_26
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 920
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_27
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 920
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_28
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 920
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_29
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 920
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RecycleGuy_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 732
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
