@@ -38,11 +38,9 @@ public class PlayerController : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-
-        characterAnim[characterID].SetFloat("Speed", Mathf.Abs(currentSpeed));
-
         OnMove();
         ChangeCharacter();
+        characterAnim[characterID].SetFloat("Speed", Mathf.Abs(currentSpeed));
     }
 
     private void OnMove() {

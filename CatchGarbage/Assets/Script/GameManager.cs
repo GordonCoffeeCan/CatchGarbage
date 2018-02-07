@@ -4,17 +4,10 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
-    private static GameManager _instance;
 
-    public static GameManager Instance {
-        get {
-            return _instance;
-        }
-    }
+    public static GameManager instance;
 
-    public Transform restartPanel;
     public Text scoreUI;
-    public GameObject startPage;
     public GameObject player;
 
     public static int score;
@@ -28,7 +21,7 @@ public class GameManager : MonoBehaviour {
     public AudioClip onFireSound;
 
     void Awake() {
-        _instance = this;
+        instance = this;
     }
 
 	// Use this for initialization
@@ -40,17 +33,6 @@ public class GameManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         scoreUI.text = score.ToString();
-
-        if (Input.anyKeyDown && isGameStart == false && restartPanel.gameObject.activeInHierarchy == false) {
-            startPage.SetActive(false);
-            player.SetActive(true);
-            scoreUI.gameObject.SetActive(true);
-            isGameStart = true;
-        }
-
-        if (Input.GetKeyDown(KeyCode.Return) && isGameStart == false && restartPanel.gameObject.activeInHierarchy == true) {
-            ReloadLevel();
-        }
     }
 
     public void ReloadLevel() {

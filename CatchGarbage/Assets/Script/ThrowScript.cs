@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class throwObjects : MonoBehaviour {
+public class ThrowScript : MonoBehaviour {
     private string buildingName;
     private int forceDirection;
     private float force = 2;
