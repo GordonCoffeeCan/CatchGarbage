@@ -3,81 +3,80 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 
-    private static PlayerController _instance;
+    public static PlayerController instance;
 
-    public static PlayerController Instance {
-        get {
-            return _instance;
-        }
-    }
-
-    public Transform recycleGuy;
-    public Transform trashGuy;
-    public Transform fireFighter;
-
-    [HideInInspector]public bool moveLeft = false;
-    [HideInInspector]public bool moveRight = false;
+    [SerializeField] private SpriteRenderer[] characterSprites;
+    [SerializeField] private float speed = 1;
 
     [HideInInspector] public int characterID = 0;
+    [HideInInspector] public float moveBoundary = 0;
+    [HideInInspector] public bool isTouchControl = false;
+    [HideInInspector] public bool moveLeft = false;
+    [HideInInspector] public bool moveRight = false;
 
-    public KeyCode leftKey;
-    public KeyCode rightKey;
-
-    public float speed = 1;
     private float currentSpeed = 0;
-
-    private Rigidbody2D _rigidbody;
-
-    private Animator recycleGuyAnim;
-    private Animator trashGuyAnim;
-    private Animator fireFighterAnim;
+    private float smoothStep = 0.3f;
+    private Animator[] characterAnim = new Animator[3];
+    private Rigidbody2D rig;
 
     void Awake() {
-        _instance = this;
+        instance = this;
     }
 
     // Use this for initialization
     void Start() {
-        _rigidbody = this.transform.GetComponent<Rigidbody2D>();
+        rig = this.transform.GetComponent<Rigidbody2D>();
 
-        recycleGuyAnim = this.transform.Find("RecycleGuy").GetComponent<Animator>();
-        trashGuyAnim = this.transform.Find("TrashGuy").GetComponent<Animator>();
-        fireFighterAnim = this.transform.Find("FireFighter").GetComponent<Animator>();
+        if (characterSprites.Length > 0) {
+            for (int i = 0; i < characterSprites.Length; i++) {
+                characterAnim[i] = characterSprites[i].GetComponent<Animator>();
+            }
+        }
 
-        recycleGuy.gameObject.SetActive(true);
-        trashGuy.gameObject.SetActive(false);
-        fireFighter.gameObject.SetActive(false);
+        this.transform.localScale = new Vector3(0.85f, 0.85f, 1);
     }
 
     // Update is called once per frame
     void Update() {
 
-        //StanderdInput();
-        OnMovement(moveLeft, moveRight);
-        SelectCharacter();
+        characterAnim[characterID].SetFloat("Speed", Mathf.Abs(currentSpeed));
 
-        if (recycleGuy.gameObject.activeInHierarchy == true) {
-            recycleGuyAnim.SetFloat("Speed", Mathf.Abs(_rigidbody.velocity.x));
-        } else if (trashGuy.gameObject.activeInHierarchy == true) {
-            trashGuyAnim.SetFloat("Speed", Mathf.Abs(_rigidbody.velocity.x));
-        } else if (fireFighter.gameObject.activeInHierarchy == true) {
-            fireFighterAnim.SetFloat("Speed", Mathf.Abs(_rigidbody.velocity.x));
+        OnMove();
+        ChangeCharacter();
+    }
+
+    private void OnMove() {
+        if (isTouchControl) {
+            if (moveRight) {
+                currentSpeed = Mathf.Lerp(currentSpeed, speed, smoothStep);
+            }
+            if (moveLeft) {
+                currentSpeed = Mathf.Lerp(currentSpeed, -speed, smoothStep);
+            }
+        } else {
+            currentSpeed = Mathf.Lerp(currentSpeed, speed * Input.GetAxis("Horizontal"), smoothStep);
+        }
+
+        if (currentSpeed >= 0.01f) {
+            this.transform.localScale = new Vector3(0.85f, 0.85f, 1);
+        } else if (currentSpeed <= -0.01f) {
+            this.transform.localScale = new Vector3(-0.85f, 0.85f, 1);
+        }
+
+        if (this.transform.position.x > moveBoundary) {
+            this.transform.position = new Vector2(moveBoundary, this.transform.position.y);
+        } else if (this.transform.position.x < -moveBoundary) {
+            this.transform.position = new Vector2(-moveBoundary, this.transform.position.y);
         }
     }
 
-    private void SelectCharacter() {
-        if (characterID == 0) {
-            recycleGuy.gameObject.SetActive(true);
-            trashGuy.gameObject.SetActive(false);
-            fireFighter.gameObject.SetActive(false);
-        } else if (characterID == 1) {
-            recycleGuy.gameObject.SetActive(false);
-            trashGuy.gameObject.SetActive(true);
-            fireFighter.gameObject.SetActive(false);
-        } else if (characterID == 2) {
-            recycleGuy.gameObject.SetActive(false);
-            trashGuy.gameObject.SetActive(false);
-            fireFighter.gameObject.SetActive(true);
+    private void ChangeCharacter() {
+        for (int i = 0; i < characterSprites.Length; i++) {
+            if(i == characterID) {
+                characterSprites[i].gameObject.SetActive(true);
+            } else {
+                characterSprites[i].gameObject.SetActive(false);
+            }
         }
     }
 
@@ -100,25 +99,7 @@ public class PlayerController : MonoBehaviour {
         }
     }*/
 
-    private void StanderdInput() {
-        OnMovement(Input.GetKey(leftKey), Input.GetKey(rightKey));
-    }
-
-    private void OnMovement(bool onMoveLeft = false, bool onMoveRight = false) {
-        currentSpeed = 0;
-
-        if (onMoveLeft) {
-            currentSpeed = -speed;
-            this.transform.localScale = new Vector3(-0.85f, 0.85f, 1);
-        }
-
-        if (onMoveRight) {
-            currentSpeed = speed;
-            this.transform.localScale = new Vector3(0.85f, 0.85f, 1);
-        }
-    }
-
     private void FixedUpdate() {
-        _rigidbody.velocity = new Vector3(currentSpeed, 0, _rigidbody.velocity.y);
+        rig.MovePosition(new Vector2(this.transform.position.x + currentSpeed * Time.deltaTime, this.transform.position.y));
     }
 }

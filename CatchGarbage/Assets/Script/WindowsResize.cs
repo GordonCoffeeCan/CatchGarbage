@@ -66,6 +66,8 @@ public class WindowsResize : MonoBehaviour {
         leftBuilding.position = new Vector3(-_position.x + leftBuildingSpriteRender.bounds.size.x / 2 - 0.02f, leftBuilding.position.y, leftBuilding.position.z);
         rightBuilding.position = new Vector3(_position.x - rightBuildingSpriteRender.bounds.size.x / 2 + 0.02f, rightBuilding.position.y, rightBuilding.position.z);
 
+        PlayerController.instance.moveBoundary = _position.x - rightBuildingSpriteRender.bounds.size.x * buildingScaleFactor;
+
         groundCollider.size = new Vector2(_position.x * 2, 1.4f);
         groundCollider.transform.position = new Vector3(0, -_position.y + groundCollider.size.y / 2, 0);
     }
